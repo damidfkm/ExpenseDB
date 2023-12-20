@@ -7,6 +7,9 @@ db = ExpenseDatabase()
 db.add_expense("Groceries", 100.50)
 db.add_expense("Rent", 500.00)
 db.add_expense("Utilities", 150.00)
+db.add_expense("Transportation", 90.00)
+db.add_expense("AltSchoolTuition", 30.00)
+db.add_expense("Internet", 130.85)
 
 # Print all expenses
 print("All expenses:")
@@ -15,7 +18,7 @@ for expense in db.to_dict():
 
 # Update an expense
 first_expense_id = db.expenses[0].id
-db.get_expense_by_id(first_expense_id).update(title="Groceries and Supplies", amount=120.75)
+db.get_expense_by_id(first_expense_id).update(title="Groceries", amount=120.75)
 
 # Print all expenses after update
 print("\nAll expenses after update:")
