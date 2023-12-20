@@ -1,47 +1,44 @@
 
 # ExpenseDB
 
-ExpenseDB is a simple Python application that allows you to manage financial expenses. It provides an easy way to add, update, retrieve, and delete expenses.
+This project implements an expense database to manage financial expenses using Python's object-oriented programming concepts. 
 
-## Getting Started
+It consists of two main classes: `Expense` and `ExpenseDatabase`, allowing users to model and manage financial expenses efficiently.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## Project Structure
 
-### Prerequisites
+- `expense.py`: Contains the Expense and ExpenseDatabase classes.
+- `expense_.py`: Demonstrates the usage of the implemented classes to manage expenses.
 
-You need Python 3.7 or later to run ExpenseDB. You can have multiple Python versions (2.x and 3.x) installed on the same system without problems.
+## Cloning the Project
 
-In Ubuntu, Mint and Debian you can install Python 3 like this:
-
-```bash
-sudo apt-get install python3 python3-pip
-```
-
-For other Linux flavors, macOS and Windows, packages are available at
-
-  https://www.python.org/getit/
-
-### Cloning
-
-To clone the ExpenseDB, simply follow the steps:
+To clone this project to your local machine, use the following command:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/your_username/ExpenseDB
-
-# Go into the repository
-$ cd ExpenseDB
+git clone <https://github.com/damidfkm/ExpenseDB.git>
 ```
 
 ### Running the code
 
-To run the code, navigate to the directory containing the code files and run the following command:
+To run the code:
+
+Ensure you have Python installed (version 3.7 or higher).
+Navigate to the project directory in your terminal.
+Run the following command:
 
 ```bash
 python3 main.py
 ```
 
-This will start the application, and you can begin adding and managing expenses.
+This will execute the demonstration code in expense_db.py, showcasing various functionalities of the expense database.
+
+### Usage
+## Expense Class: 
+Represents an individual expense. 
+Use the update method to modify an expense's title or amount.
+## ExpenseDatabase Class: 
+Manages a collection of expenses. 
+Use methods like add_expense, remove_expense, get_expense_by_id, and get_expense_by_title to handle expenses in the database.
 
 
 
