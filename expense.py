@@ -1,6 +1,7 @@
 import uuid
 from datetime import datetime, timezone
 
+# Expense class
 class Expense:
     def __init__(self, title, amount):
         self.id = str(uuid.uuid4())
@@ -25,6 +26,7 @@ class Expense:
             'updated_at': self.updated_at,
         }
 
+# ExpenseDatabase class
 class ExpenseDatabase:
     def __init__(self):
         self.expenses = []
