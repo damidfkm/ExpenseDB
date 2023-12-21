@@ -27,18 +27,21 @@ Navigate to the project directory in your terminal.
 Run the following command:
 
 ```bash
-python3 main.py
+python3 expense_db.py
 ```
 
 This will execute the demonstration code in expense_db.py, showcasing various functionalities of the expense database.
 
 ## Usage
-## Expense Class: 
-Represents an individual expense. 
-Use the update method to modify an expense's title or amount.
-## ExpenseDatabase Class: 
-Manages a collection of expenses. 
-Use methods like add_expense, remove_expense, get_expense_by_id, and get_expense_by_title to handle expenses in the database.
+`Expense Class:`
+  
+- Represents an individual expense. 
+- Use the update method to modify an expense's title or amount.
+  
+ `ExpenseDatabase Class:`
+  
+- Manages a collection of expenses. 
+- Use methods like add_expense, remove_expense, get_expense_by_id, and get_expense_by_title to handle expenses in the database.
 
 
 
