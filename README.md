@@ -8,7 +8,7 @@ It consists of two main classes: `Expense` and `ExpenseDatabase`, allowing users
 ## Project Structure
 
 - `expense.py`: Contains the Expense and ExpenseDatabase classes.
-- `expense_.py`: Demonstrates the usage of the implemented classes to manage expenses.
+- `expense_db.py`: Demonstrates the usage of the implemented classes to manage expenses.
 
 ## Cloning the Project
 
@@ -32,7 +32,7 @@ python3 main.py
 
 This will execute the demonstration code in expense_db.py, showcasing various functionalities of the expense database.
 
-### Usage
+## Usage
 ## Expense Class: 
 Represents an individual expense. 
 Use the update method to modify an expense's title or amount.
