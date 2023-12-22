@@ -12,17 +12,45 @@ It consists of two main classes: `Expense` and `ExpenseDatabase`, allowing users
 
 ## Cloning the Project
 
-To clone this project to your local machine, use the following command:
+- Copy this Repository's URL:
+Click on the green "Code" button and copy the URL provided (https://github.com/damidfkm/ExpenseDB). You can click the clipboard icon next to the URL to copy it.
+
+- Open Terminal or Command Prompt:
+Open a terminal or command prompt on your computer.
+
+- Navigate to the Directory Where You Want to Clone the Repository:
+Use the cd command to navigate to the directory where you want to clone the repository. For example:
 
 ```bash
-git clone <https://github.com/damidfkm/ExpenseDB.git>
+cd path/to/desired/directory
 ```
 
-### Running the code
+- Clone the Repository:
+Use the git clone command followed by the URL you copied earlier.
+
+```bash
+git clone https://github.com/damidfkm/ExpenseDB
+```
+
+- Confirm the Cloning Process:
+Wait for the cloning process to complete. Once it's finished, you'll have a local copy of the repository on your computer in the directory you specified.
+
+- Remember, you'll need Git installed on your computer to use the `git clone` command.
+
+However, if you're looking for alternatives to clone or download a repository without using the command line or Git, you can use the GitHub website interface:
+
+- Using GitHub's "Download ZIP" Option:
+
+-  Click on the green "Code" button.
+-  Select "Download ZIP."
+
+This will download a compressed file (ZIP) of this repository to your computer. Extract the contents to access the files.
+
+## Running the code
 
 To run the code:
 
-- Ensure you have Python installed (version 3.7 or higher).
+- Ensure you have Python installed (Python 3.7 or higher).
 - Navigate to the project directory in your terminal.
 - Run the following command:
 
