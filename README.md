@@ -29,7 +29,7 @@ cd path/to/desired/directory
 Use the git clone command followed by the URL you copied earlier.
 
 ```bash
-git clone https://github.com/damidfkm/ExpenseDB
+git clone https://github.com/damidfkm/ExpenseDB.git
 ```
 
 - Confirm the Cloning Process:
